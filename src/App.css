@@ -22,6 +22,14 @@
   text-align: center;
 }
 
+.overdrive {
+  border: 1px solid blue;
+  width: 10rem;
+  background-color: rgb(204, 245, 219);
+  padding: 1rem;
+  text-align: center;
+}
+
 .instructions {
   border: 1px solid green;
   width: fit-content;
