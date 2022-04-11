@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
 
 function App() {
+
+  const [counter, setCounter] = useState(0);
+
+  function increaseCounter() {
+    let increasedByOne = counter + 1;
+    setCounter(increasedByOne)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header className='Header'>
+        <h1>This is a Timed Button app</h1>
       </header>
-    </div>
+      <main>
+        <div className='App'>
+          <h2>COUNTER</h2>
+          <h3>{counter}</h3>
+          <button onClick={increaseCounter}>Click!</button>
+        </div>
+      </main>
+    </>
   );
 }
 
