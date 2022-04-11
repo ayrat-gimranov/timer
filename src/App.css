@@ -1,21 +1,31 @@
-.Header{
+.Header {
   text-align: center;
-  margin-bottom: 4rem;
 }
 
-.App{
+.App {
   border: 1px solid red;
   width: 10rem;
   padding: 1rem;
   text-align: center;
-  margin: auto;
-  margin-top: 4rem;
 }
 
-.instructions{
+.upperPage{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.trophyBox {
+  border: 1px solid blue;
+  width: 10rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.instructions {
   border: 1px solid green;
-  width:fit-content;
+  width: fit-content;
   padding: 1rem;
   margin: auto;
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
