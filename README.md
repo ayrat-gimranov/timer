@@ -18,4 +18,3 @@ Write an app using React and Typescript meeting the requirements laid out below.
 5. When the user reaches any multiple of 10 on the counter (10, 20, 30, etc), they should receive a trophy.
     1. The trophy should appear somewhere on the page indicating that the user reached that threshold.
     2. The trophy should not disappear if the counter decreases below the threshold for the trophy
-
