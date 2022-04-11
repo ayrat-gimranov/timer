@@ -1,5 +1,6 @@
 import './App.css';
 import { useState } from 'react';
+import Instructions from './Instrustions';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <h3>{counter}</h3>
           <button onClick={increaseCounter}>Click!</button>
         </div>
+        <Instructions />
       </main>
     </>
   );
