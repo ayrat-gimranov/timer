@@ -11,3 +11,11 @@
   margin: auto;
   margin-top: 4rem;
 }
+
+.instructions{
+  border: 1px solid green;
+  width:fit-content;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 4rem;
+}
