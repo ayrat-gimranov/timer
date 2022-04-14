@@ -99,6 +99,7 @@ function App() {
     <>
       <header className='Header'>
         <h1>This is a Timed Button app</h1>
+        <p>Solution by Ayrat Gimranov: <a href="https://github.com/ayrat-gimranov/timer">https://github.com/ayrat-gimranov/timer</a></p>
       </header>
       <main>
         <div className='upperPage'>
